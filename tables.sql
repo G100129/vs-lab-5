@@ -9,7 +9,7 @@ create table groups (
 	short_name varchar(64) NOT NULL UNIQUE,
 	year int,
 	institute_id int not null
-)
+);
 
 create table students (
 	id serial Primary key,

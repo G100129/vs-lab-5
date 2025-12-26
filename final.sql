@@ -5,7 +5,7 @@ create table cathedrals (
 );
 
 alter table groups
-add column cathedral_id int not null;
+add column cathedral_id int;
 
 insert into cathedrals (name, chief)
 values ('Кафедра информационных технологий', 'Васильева Наталья Васильевна'),
