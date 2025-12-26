@@ -8,8 +8,8 @@ create table groups (
 	name varchar(2048) NOT NULL,
 	short_name varchar(64) NOT NULL UNIQUE,
 	year int,
-	institube_id int not null
-);
+	institute_id int not null
+)
 
 create table students (
 	id serial Primary key,
